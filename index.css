@@ -5,5 +5,22 @@ body
 	background-image: url(fondo.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
+	display: flex;
+}
+
+.container_left
+{
+	border: 2px solid red;
+	margin: 100px 0px 0px 120px; 
+	width: 50%;
+	height: 25vw;
+}
+
+.container_right
+{
+	border: 2px solid red;
+	margin: 100px 0px 100px 0px; 
+	width: 30%;
+	height: 25vw;
 }
 
