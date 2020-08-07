@@ -16,6 +16,7 @@ body
 	background-image: url(lol.jpg);
 	background-size: 126%;
 	background-repeat: no-repeat;
+	border-radius: 10px 0px 0px 10px;
 }
 
 .contact
@@ -64,6 +65,13 @@ body
 .social_link.instagram
 {
 	background-image: url(https://i.imgur.com/GxGFFUz.png);
+}
+
+.hero
+{
+	margin: 100px 50px;
+	color: white;
+	font-weight: 700;
 }
 
 
