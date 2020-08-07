@@ -13,7 +13,26 @@ body
 	border: 2px solid red;
 	margin: 100px 0px 0px 120px; 
 	width: 50%;
-	height: 25vw;
+	height: 35vw;
+	background-image: url(lol.jpg);
+	background-size: 126%;
+	background-repeat: no-repeat;
+}
+
+.contact
+{
+	border:1px solid blue;
+	height: 15%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.contact h3
+{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: small;
+	font-weight: 500;
 }
 
 .container_right
@@ -21,6 +40,6 @@ body
 	border: 2px solid red;
 	margin: 100px 0px 100px 0px; 
 	width: 30%;
-	height: 25vw;
+	height: 35vw;
 }
 
