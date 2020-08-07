@@ -10,7 +10,6 @@ body
 
 .container_left
 {
-	border: 2px solid red;
 	margin: 100px 0px 0px 120px; 
 	width: 50%;
 	height: 35vw;
@@ -21,10 +20,10 @@ body
 
 .contact
 {
-	border:1px solid blue;
 	height: 15%;
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 }
 
 .contact h3
@@ -33,7 +32,40 @@ body
 	color: white;
 	font-size: small;
 	font-weight: 500;
+	margin: 0px;
 }
+
+.social_link
+{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin: 1px 5px;
+	background-size: 18px 18px;
+	background-repeat: no-repeat;
+	background-position-x:center 
+}
+
+.social_link.twitter
+{
+	background-image: url(https://i.imgur.com/fRziT2q.png);
+}
+
+.social_link.facebook
+{
+	background-image: url(https://i.imgur.com/LgY5xSY.png);
+}
+
+.social_link.github
+{
+	background-image: url(https://i.imgur.com/Ri4v7AB.png);
+}
+
+.social_link.instagram
+{
+	background-image: url(https://i.imgur.com/GxGFFUz.png);
+}
+
 
 .container_right
 {
