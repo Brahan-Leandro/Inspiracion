@@ -94,6 +94,24 @@ body
 	background-color: black;
 	margin: 100px 0px 100px 0px; 
 	width: 30%;
-	height: 35vw;
+	height: 34.7vw;
+	padding-right: 50px;
+}
+
+.link
+{
+	color: white;
+	margin: 0px 5px 0px 0px;
+	font-size: 10px;
+}
+
+ol
+{
+	justify-content: flex-end;
+}
+
+ol, li
+{
+	display: flex;
 }
 
