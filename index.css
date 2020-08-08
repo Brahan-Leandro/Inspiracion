@@ -177,9 +177,19 @@ ol, li
 {
 	margin: 50px 0px 50px 0px;
 	text-align: inherit;
-	width: 100px;
+	width: 300px;
 	height: 100px;
 	border:1px solid white;
+}
+
+.event1
+{
+	border:1px solid white;
+	border-radius: 100px;
+	width: 35px;
+	height: 35px;
+	background-image: url(https://www.washingtonian.com/wp-content/uploads/2017/06/photo.jpg);
+	background-size: 100%;
 }
 
 
