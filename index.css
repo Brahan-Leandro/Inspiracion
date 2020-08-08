@@ -113,7 +113,7 @@ body
 	font-weight: 700;
 }
 
-.boton
+.boton_left
 {
 	margin: 10px 0px 0px 10px;
 	font-size: 10px;
@@ -173,9 +173,14 @@ ol, li
 	font-size: 10px;
 }
 
+.icon_bot
+{
+	margin-bottom: 50px;
+}
+
 .info_event
 {
-	margin: 50px 0px 50px 0px;
+	margin: 25px 0px 25px 0px;
 	text-align: inherit;
 	width: 300px;
 	height: auto;
@@ -217,6 +222,19 @@ ol, li
 {
 	text-align: justify;
 	display: block;
+}
+
+.boton_right
+{
+	margin: 100px 0px 0px 180px;
+	font-size: 13px;
+	font-weight: bolder;
+	text-decoration: none;
+	border:2px solid gray;
+	border-radius: 80px;
+	background-color: gray;
+	padding: 10px 30px;
+	color: white;
 }
 
 
