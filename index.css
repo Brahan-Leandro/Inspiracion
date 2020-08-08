@@ -158,7 +158,7 @@ ol, li
 {
 	color: white;
 	text-align: -webkit-center;
-	margin: 130px 0px 0px 0px;
+	margin: 80px 0px 0px 0px;
 }
 
 .icon_top,
@@ -178,18 +178,45 @@ ol, li
 	margin: 50px 0px 50px 0px;
 	text-align: inherit;
 	width: 300px;
-	height: 100px;
-	border:1px solid white;
+	height: auto;
+	
+	justify-content: center;
+}
+
+.container_event
+{
+	display: flex;
+	justify-content: center;
 }
 
 .event1
 {
 	border:1px solid white;
 	border-radius: 100px;
-	width: 35px;
-	height: 35px;
+	width: 30px;
+	height: 30px;
 	background-image: url(https://www.washingtonian.com/wp-content/uploads/2017/06/photo.jpg);
 	background-size: 100%;
+	margin-right: 10px; 
+	display: flex;
+}
+
+.event2
+{
+	border:1px solid white;
+	border-radius: 100px;
+	width: 30px;
+	height: 30px;
+	background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tomorrowland-2020-1591353633.jpg);
+	background-size: 100%;
+	margin-right: 10px; 
+	display: flex;
+}
+
+.info
+{
+	text-align: justify;
+	display: block;
 }
 
 
