@@ -111,6 +111,7 @@ body
 	margin: 50px 50px;
 	color: white;
 	font-weight: 700;
+	font-size: 15px;
 }
 
 .boton_left
@@ -265,7 +266,7 @@ ol, li
 		width: 80%;
 		background-size: 130%;
 		border-radius: 10px 10px 0px 0px;
-		margin: 100px 10% 0px 10%;
+		margin: 50px 10% 0px 10%;
 	}
 
 	.contact h3
@@ -287,7 +288,27 @@ ol, li
 
 @media screen and (max-width: 480px)
 {
+	.container_left
+	{
+		height: 100vw;
+	}
 
+	.contact
+	{
+		height: 7%;
+	}
+
+	.contact h3
+	{
+		font-size: 10px;
+	}
+
+	.social_link
+	{
+		background-size: 12px;
+		margin: 1px 1px;
+		width: 15px;
+	}
 }
 
 @media screen and (max-width: 320px)
