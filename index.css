@@ -260,9 +260,17 @@ ol, li
 		background-size: 1000px;
 	}
 
+	.container_left
+	{
+		width: 80%;
+		background-size: 130%;
+		border-radius: 10px 10px 0px 0px;
+		margin: 100px 10% 0px 10%;
+	}
+
 	.contact h3
 	{
-		font-size: 10px;
+		font-size: 15px;
 		font-weight: 200;
 	}
 
@@ -273,10 +281,19 @@ ol, li
 
 	.social_link
 	{
-		background-size: 12px;
+		background-size: 15px;
 	}
 }
 
+@media screen and (max-width: 480px)
+{
+
+}
+
+@media screen and (max-width: 320px)
+{
+	
+}
 
 
 
