@@ -49,7 +49,7 @@ body
 
 .container_left
 {
-	margin: 150px 0px 0px 120px; 
+	margin: 10% 0px 0px 120px; 
 	width: 50%;
 	height: 35vw;
 	background-image: url(lol.jpg);
@@ -132,7 +132,7 @@ body
 	border: 2px solid transparent;
 	border-radius: 0px 10px 10px 0px;
 	background-color: black;
-	margin: 100px 0px 100px 0px; 
+	margin: 10% 0px 100px 0px; 
 	width: 30%;
 	height: 34.7vw;
 	padding-right: 50px;
@@ -242,7 +242,7 @@ ol, li
 {
 	.container_left
 	{
-		margin: 200px 0px 0px 120px; 
+		margin: 100px 0px 0px 120px; 
 		height: 50vw;
 		background-size: 180%;
 	}
