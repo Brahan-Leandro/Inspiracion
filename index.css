@@ -329,7 +329,6 @@ ol, li
 	.menu
 	{
 		padding: 1% 10%;
-		height: fit-content;
 	}
 
 	.icon_top,
@@ -342,6 +341,11 @@ ol, li
 	{
 		margin: 0px;
 		text-align: start;
+	}
+
+	.boton_right
+	{
+		margin: 15%;
 	}
 
 }
@@ -363,7 +367,7 @@ ol, li
 {
 	.container_left
 	{
-		height: 100vw;
+		height: 50vw;
 	}
 
 	.contact
@@ -387,6 +391,24 @@ ol, li
 	{
 		font-size: 7px;
 	}
+
+	.container_right
+	{
+		background-size: 200%;
+		height: 80vw;
+		font-size: 8px; 
+	}
+
+	.info_event
+	{
+		margin: 15px 0px;
+	}
+
+	.boton_right
+	{
+		margin-left: 30%;
+	}
+
 }
 
 @media screen and (max-width: 360px)
@@ -394,6 +416,22 @@ ol, li
 	.hero
 	{
 		font-size: 6px;
+	}
+
+	.container_right
+	{
+		font-size: 5px;
+	}
+
+	.icon_top,
+	.icon_bot
+	{
+		margin-left: 45%;
+	}
+
+	.boton_right
+	{
+		margin-left: 50%;
 	}
 }
 
