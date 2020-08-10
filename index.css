@@ -132,17 +132,18 @@ body
 	border: 2px solid transparent;
 	border-radius: 0px 10px 10px 0px;
 	background-color: black;
-	margin: 10% 0px 100px 0px; 
+	margin: 10% 0px 0px 0px; 
 	width: 30%;
 	height: 34.7vw;
 	padding-right: 50px;
+	font-size: 10px;
 }
 
 .link
 {
 	color: white;
 	margin: 0px 5px 0px 0px;
-	font-size: 10px;
+	font-size: 1em;
 }
 
 ol
@@ -171,12 +172,12 @@ ol, li
 	width: 10px;
 	text-align: inherit;
 	margin: auto;
-	font-size: 10px;
+	font-size: 1em;
 }
 
 .icon_bot
 {
-	margin-bottom: 50px;
+	margin-bottom: 12%;
 }
 
 .info_event
@@ -184,8 +185,7 @@ ol, li
 	margin: 25px 0px 25px 0px;
 	text-align: inherit;
 	width: 300px;
-	height: auto;
-	
+	height: auto;	
 	justify-content: center;
 }
 
@@ -227,14 +227,14 @@ ol, li
 
 .boton_right
 {
-	margin: 100px 0px 0px 180px;
-	font-size: 13px;
+	margin: 10% 0px 0px 45%;
+	font-size: 1.3em;
 	font-weight: bolder;
 	text-decoration: none;
 	border:2px solid gray;
 	border-radius: 80px;
 	background-color: gray;
-	padding: 10px 30px;
+	padding: 3% 6%;
 	color: white;
 }
 
@@ -242,7 +242,7 @@ ol, li
 {
 	.container_left
 	{
-		margin: 100px 0px 0px 120px; 
+		margin: 10% 0px 0px 12%; 
 		height: 50vw;
 		background-size: 180%;
 	}
@@ -255,6 +255,17 @@ ol, li
 	.hero
 	{
 		font-size: 16px;
+	}
+
+	.container_right
+	{
+		height: 50vw;
+		border:none;
+	}
+
+	.eventos
+	{
+		margin: 18% 0px 0px 0px;
 	}
 }
 
@@ -271,6 +282,7 @@ ol, li
 	body
 	{
 		background-size: 1000px;
+		display: block;
 	}
 
 	.container_left
@@ -301,6 +313,37 @@ ol, li
 	{
 		font-size: 10px;
 	}
+
+	.container_right
+	{
+		margin: 0px 10% 0px 10%;
+		border-radius: 0px 0px 10px 10px;
+		width: 80%;
+		padding: 0px;
+		height: 60vw;
+		background-image: url(https://ak.picdn.net/shutterstock/videos/1010006993/thumb/1.jpg);
+		background-repeat: no-repeat;
+		background-size: 150%;		
+	}
+
+	.menu
+	{
+		padding: 1% 10%;
+		height: fit-content;
+	}
+
+	.icon_top,
+	.icon_bot
+	{
+		margin-left:25%;
+	}
+
+	.eventos
+	{
+		margin: 0px;
+		text-align: start;
+	}
+
 }
 
 @media screen and (max-width: 620px)
